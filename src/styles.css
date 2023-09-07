@@ -1,0 +1,120 @@
+/* Set the background color to black */
+body {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the content on the left */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 24px; /* Add top margin */
+}
+
+/* Style for the heading */
+.heading-container {
+  margin-bottom: 32px;
+}
+
+/* Style for the box containing details */
+.details-box {
+  background-color: #24232b;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 12px 20px; /* Add margin between details boxes */
+}
+
+.fas.fa-copy {
+  margin-right: 10px; /* Adjust the spacing between the symbol and text */
+}
+
+/* PS3&SVBIA - Arial; Font Size: 20px; Font Weight: 700; Font Color: #ffffff */
+.ps3-svbia {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* Colors */
+/* #242328 */
+.color-1 {
+  color: #242328;
+}
+
+/* #2A8B8B */
+.color-2 {
+  color: #2a8b8b;
+}
+
+/* #800000 */
+.color-3 {
+  color: #800000;
+}
+
+/* #E78B01 */
+.color-4 {
+  color: #e78b01;
+}
+
+/* #46924E */
+.color-5 {
+  color: #46924e;
+}
+
+.include-uppercase-label {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 240px;
+  color: #707070;
+}
+.character-length-label {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #707070;
+}
+.include-lowercase-label {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #707070;
+}
+.include-numbers-label {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #707070;
+}
+.include-specialChars-label {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #707070;
+}
+.generate-password-label {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #707070;
+}
+/* Style for the container */
+.content-container {
+  background-color: #24232b;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 12px 20px; /* Add margin between details boxes */
+}
+
+/* Style for the heading */
+.ps3-svbia {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
